@@ -1,0 +1,68 @@
+.ipod-screen {
+    height: 222px;
+    width: 278px;
+    margin: auto;
+    margin-top: 5.5vh;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for the display content */
+.screen-content {
+    width: 80%;
+    height: 95%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Styling for the menu list items */
+.menu-item {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 18px;
+    color: #333;
+    background-color: #eaeaea;
+    border-radius: 8px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.menu-item:hover {
+    background-color: #ddd;
+}
+
+/* Highlighted or selected menu item */
+.menu-item-active {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+}
+
+.now-playing {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #222;
+}
+
+/* Styling for the song or video title */
+.now-playing-title {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Styling for images on the screen */
+.screen-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-top: 15px;
+}

@@ -1,0 +1,12 @@
+.ipod-app {
+  height: 90vh;
+  width: 50vw;
+  margin: auto;
+  background-image: url('./Static/ipod.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
